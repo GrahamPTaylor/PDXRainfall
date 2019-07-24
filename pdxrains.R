@@ -7,7 +7,6 @@ library(lubridate)
 
 # data from - https://w2.weather.gov/climate/local_data.php?wfo=pqr
 
-setwd('C:/Users/Graham/Desktop/Grad School')
 climedata <- data.frame(read.csv(file = 'Portland_dailyclimatedata.csv', header = T))
 head(climedata)
 
